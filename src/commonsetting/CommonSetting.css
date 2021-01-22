@@ -1,0 +1,23 @@
+.bg-dark {
+	background-color: rgb(40, 40, 50) !important;
+}
+
+.itemblock{
+	height: 240px;
+	background-color: wheat;
+	border-radius: 10px;
+}
+
+
+.borderRad-xl{
+	border-radius: 30px;
+}
+.borderRad-lg{
+	border-radius: 20px;
+}
+.borderRad-md{
+	border-radius: 10px;
+}
+.borderRad-sm{
+	border-radius: 5px;
+}
