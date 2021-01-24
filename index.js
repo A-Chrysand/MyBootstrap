@@ -16,8 +16,16 @@ $(".nav-link:eq(1), .dropdown_listlink:eq(0)").click(function () {
 	$(".nav-link:eq(1)").addClass("active");
 });
 
+
 $(".dropdown_listlink:eq(1)").click(function () {
 	$("#index_iframe").attr("src", "./src/2_MyDevice/L2_SystemUpdate.html");
+	$("#index_iframe").css({ "height": "calc(100vh)" });
+	$(".nav-link").removeClass("active");
+	$(".nav-link:eq(1)").addClass("active");
+});
+
+$(".dropdown_listlink:eq(2)").click(function () {
+	$("#index_iframe").attr("src", "./src/2_MyDevice/R_DeviceSetting.html");
 	$("#index_iframe").css({ "height": "calc(100vh)" });
 	$(".nav-link").removeClass("active");
 	$(".nav-link:eq(1)").addClass("active");

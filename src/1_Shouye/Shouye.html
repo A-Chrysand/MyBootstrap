@@ -68,15 +68,19 @@
 						</a>
 					</div>
 				</div>
+
 				<!--第二层-->
-				<div class="d-flex mt-3">
-					<div class="borderRad-lg" style="width: 47.5%; background-color: rgb(51, 51, 51); height: 290px;">
+				<div class="d-md-flex mt-3">
+					<div class="borderRad-lg col-sm-12 dividel"
+						style="background-color: rgb(51, 51, 51); height: 290px;">
 						<h3 class="px-3 py-2" style="color: whitesmoke;">系统信息</h3>
 					</div>
-					<div class="borderRad-sm" style="width: 47.5%;margin-left: 5%; background-color: rgb(129, 57, 35); height: 290px;">
+					<div class="borderRad-sm col-sm-12 divider mt-md-0 mt-sm-3 mt-xs-3"
+						style=" background-color: rgb(129, 57, 35); height: 290px;">
 						<h3 class="px-3 py-2" style="color: whitesmoke;">这种在+远程办公的操作，彪悍！</h3>
 					</div>
 				</div>
+
 				<!--第三层-->
 				<div class="d-flex mt-3">
 					<div class="col-4">
@@ -85,7 +89,8 @@
 						</div>
 					</div>
 					<div class="col-8">
-						<div class="offset-1 col-11 borderRad-lg" style="background-color: rgb(229, 132, 253); height: 200px;">
+						<div class="offset-1 col-11 borderRad-lg"
+							style="background-color: rgb(229, 132, 253); height: 200px;">
 							<h3 class="px-3 py-2" style="color: whitesmoke;">321</h2>
 						</div>
 					</div>
@@ -144,6 +149,36 @@
 		width: 100%;
 	}
 
+
+
+	@media (min-width: 576px) {
+		/*xs*/
+
+	}
+
+
+	@media (min-width: 768px) {
+
+		/*sm*/
+		.nav-link {
+			padding-left: 1em !important;
+		}
+
+		.dividel {
+			width: 47.5%;
+		}
+
+		.divider {
+			width: 47.5%;
+			margin-left: 5%;
+		}
+	}
+
+	@media (min-width: 992px) {
+		/*lg*/
+
+
+	}
 </style>
 
 </html>
